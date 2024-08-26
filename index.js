@@ -11,3 +11,19 @@ console.log(anoAtual);
 idade = idade  + 1;
 console.log(idade);
 
+
+// Agência de viagens Nova Zelândia, Alemanha, São Paulo, Pará,Rio de Janeiro
+const listaDeDestinos = new Array(
+  "Nova Zelândia", 
+  "Alemanha", 
+  "São Paulo",
+  "Pará",
+  "Rio de Janeiro"
+);
+console.log(listaDeDestinos);
+console.log(listaDeDestinos[4]); 
+listaDeDestinos.push("Coronel Vivida");
+listaDeDestinos.push("Curitiba");
+listaDeDestinos.push("Rio Branco");
+listaDeDestinos.push("Berlin");
+console.log(listaDeDestinos);
