@@ -15,10 +15,10 @@ console.log(idade);
 // Agência de viagens Nova Zelândia, Alemanha, São Paulo, Pará,Rio de Janeiro
 const listaDeDestinos = new Array(
   "Nova Zelândia", 
-  "Alemanha", 
-  "São Paulo",
-  "Pará",
-  "Rio de Janeiro"
+  " Alemanha", 
+  " São Paulo",
+  " Pará",
+  " Rio de Janeiro"
 );
 console.log(listaDeDestinos);
 console.log(listaDeDestinos[4]); 
@@ -27,3 +27,16 @@ listaDeDestinos.push("Curitiba");
 listaDeDestinos.push("Rio Branco");
 listaDeDestinos.push("Berlin");
 console.log(listaDeDestinos);
+
+
+
+const idadeComprador = 17;
+
+
+if(idadeComprador >= 18) {
+  console.log("Comprador maior de idade");
+  console.log("Destinos disponíveis: " + listaDeDestinos);
+} else {
+ console.log("Infelizmente, não será finalizado o procedimento, pois idade informada é menor de 18 anos de idade.");
+  console.log("não sera finalizado devido idade");
+}
