@@ -41,6 +41,8 @@ var senha = entrada ("Digite sua senha; ");
 
 while (loginCerto != login || senha != senhaCerta){ 
 console.log ("Login ou senha incorretos");
+  login = entrada ("Qual seu login? ");
+  senha = entrada("Digite sua senha: ");
 }
 
 var nomeComprador = entrada("Digite seu nome: ");
