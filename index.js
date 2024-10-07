@@ -14,6 +14,11 @@ console.log(anoAtual);
 idade = idade  + 1;
 console.log(idade);
 
+console.log("")
+console.log("-----------------------------------------------------------------");
+console.log("                        Agência de viagens                       ");
+console.log("-----------------------------------------------------------------");
+
 
 // Agência de viagens Nova Zelândia, Alemanha, São Paulo, Pará,Rio de Janeiro
 const listaDeDestinos = new Array(
@@ -43,7 +48,6 @@ while (loginCerto != login || senha != senhaCerta){
 console.log ("Login ou senha incorretos");
   login = entrada ("Qual seu login? ");
   senha = entrada("Digite sua senha: ");
-}
 
 var nomeComprador = entrada("Digite seu nome: ");
 var idadeComprador = entrada("Qual a sua idade? ");
@@ -69,5 +73,3 @@ if(idadeComprador >= 18) {
  console.log("Infelizmente, não será finalizado o procedimento, pois idade informada é menor de 18 anos de idade.");
   console.log("Não será finalizado devido idade");
 }
-
-
